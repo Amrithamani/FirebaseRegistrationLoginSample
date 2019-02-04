@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditActivity">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/textViewFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/textViewLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/textViewuserType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Type" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/textViewUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/textViewHobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hobbies" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/textViewUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="UPDATE" />
+
+</LinearLayout>
